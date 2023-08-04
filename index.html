@@ -8,14 +8,27 @@
     <title>tic-tac-toe</title>
 </head>
 <body>
+    <div class="Title">
+        <h1> Tic-Tac-Toe </h1>
+    </div>
+        <!-- explaining the rules of the game to players -->
+    <p>RULES - Players will take turns putting their marks into empty squares. The first player to to get 3 marks in a row (up, down, across, or diagonally) is the winner</p>
 
-        <div class="playerChoice">
-            <button id="choiceX">X</button>
-            <button id="choiceO">O</button>
-        </div>
-
-        <div class="winner"></div>
-
+    <div class="playerChoice text-center">
+        <p>Select if you want to be 'X' or 'O'</p>
+        <br/>
+        <button id="choiceX">X</button>
+        <button id="choiceO">O</button>
+    </div>
+<!-- -->
+    <div class="difficulty text-center">
+        <p>Select a level to test your Tic-Tac-Toe skills!</p>
+        <br/>
+        <button id="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+    </div>
+    
     <div class="board">
         <button class="cell"></button>
         <button class="cell"></button>
@@ -27,6 +40,7 @@
         <button class="cell"></button>
         <button class="cell"></button>
     </div>
+    <h2 class="game--status"></h2>
     
 
 
