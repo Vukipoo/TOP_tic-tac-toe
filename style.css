@@ -2,14 +2,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 5px
+}
+
+.difficulty {
+    margin-bottom: 2rem;
 }
 
 .board {
-    position: absolute;
+    /* position: absolute; */
     top: 70px;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     height: 300px;
     width: 400px;
     gap: 5px
+}
+
+.Title h1 {
+    text-align: center;   /* Center the text horizontally */
+}
+
+.text-center {
+    text-align: center;
 }
